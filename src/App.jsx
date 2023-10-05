@@ -14,6 +14,8 @@ function App() {
   function handleOnSubmit(e) {
     e.preventDefault();
 
+    if (newItem === "") return;
+
     setTodos((currentTodos) => {
       return [
         ...currentTodos,
