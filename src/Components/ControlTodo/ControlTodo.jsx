@@ -37,7 +37,7 @@ function ControlTodo({ todos, onToggleTodo, onDeleteTodo }) {
             </p>
             <button
               onClick={() => onDeleteTodo(todo.id)}
-              className="active:bg-rose-500 active:text-white border border-rose-500 px-2 text-rose-500 font-semibold pt-[2px] rounded-md"
+              className="active:bg-rose-500 hover:bg-rose-500 active:text-white border border-rose-500 px-2 text-rose-500 font-semibold pt-[2px] rounded-md"
             >
               Delete
             </button>
